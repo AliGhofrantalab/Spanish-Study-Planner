@@ -35,11 +35,33 @@ https://alighofrantalab.github.io/Spanish-Study-Planner/
 
 ![preview](./images/spanish-study-planner-preview.png)
 
-## 🧭 Version History
+## ## 🧭 Version History
 
-v1.0 → Initial release (Add Task functionality,Enter key support,Scroll-able task container,Basic UI design)
-v1.1 → Planned:UI improvements and Complete Task feature,Delete Task feature,Task Counter
-v1.2 → Planned:Local Storage support,Spanish study categories,Dark Mode
+### v1.0
+
+- Initial release
+- Add Task functionality
+- Enter key support
+- Scrollable task container
+- Basic UI design
+
+### v1.1 (Planned)
+
+- Complete Task feature
+- Delete Task feature
+- Task Counters (Total, Completed, Remaining)
+
+### v1.2 (Planned)
+
+- Local Storage support
+- Dark Mode
+
+### v2.0 (Planned)
+
+- Complete UI redesign
+- Progress Bar
+- Statistics Dashboard
+- Professional task management interface
 
 ## 📌 Future Improvements
 
