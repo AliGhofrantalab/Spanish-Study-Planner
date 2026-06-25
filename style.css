@@ -1,0 +1,75 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  background-color: white;
+  width: 500px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+#taskInput {
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  margin-bottom: 15px;
+}
+
+#addBtn {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #ff0015;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+#addBtn:hover {
+  background: #dd101e;
+  transform: scale(1.05);
+}
+
+#taskList li {
+  background: #f8f9fa;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#taskList li:hover {
+  background: #edf2f4;
+}
+
+#taskList {
+  list-style: none;
+  padding: 15px;
+  margin-top: 5px;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  min-height: 120px;
+  background: #fafafa;
+  max-height: 200px;
+  overflow-y: auto;
+}
+.tasksContainer {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 12px;
+  background: #fafafa;
+}
