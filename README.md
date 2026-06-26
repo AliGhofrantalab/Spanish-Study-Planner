@@ -33,9 +33,9 @@ https://alighofrantalab.github.io/Spanish-Study-Planner/
 
 ## 📸 Preview
 
-![preview](./images/spanish-study-planner-preview.png)
+![Preview](images/v1.1-preview.png)
 
-## ## 🧭 Version History
+🧭 Version History
 
 ### v1.0
 
@@ -45,7 +45,7 @@ https://alighofrantalab.github.io/Spanish-Study-Planner/
 - Scrollable task container
 - Basic UI design
 
-### v1.1 (Planned)
+### v1.1
 
 - Complete Task feature
 - Delete Task feature

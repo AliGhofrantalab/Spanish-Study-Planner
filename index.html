@@ -5,18 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Spanish Study Planner</title>
     <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
   </head>
   <body>
     <div class="container">
+      <i class="fa-solid fa-book-open"></i>
       <h1>Spanish Study Planner</h1>
-      <input
-        type="text"
-        id="taskInput"
-        placeholder="Enter Your Today's Study Task ..."
-      />
+      <input type="text" id="taskInput" placeholder="Add a new study task..." />
       <button id="addBtn">Add Task</button>
       <div class="tasksContainer">
         <h3>Today's Tasks</h3>
+        <p id="taskCounter">Total: 0 | Completed: 0 | Remaining: 0</p>
         <ul id="taskList"></ul>
       </div>
     </div>
