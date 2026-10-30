@@ -1,0 +1,276 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  background-color: white;
+  width: 580px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+#taskInput {
+  width: 80%;
+  padding: 0 18px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  font-size: 16px;
+  outline: none;
+  margin-bottom: 15px;
+  flex: 1;
+  height: 52px;
+}
+#taskInput:focus {
+  border-color: #ff0015;
+  box-shadow: 0 0 8px rgba(255, 0, 21, 0.3);
+}
+
+#addBtn {
+  padding: 0 26px;
+  border: none;
+  border-radius: 12px;
+  background: #ff0015;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: 0.25s;
+  height: 52px;
+  font-weight: 600;
+  min-width: 170px;
+}
+
+#addBtn:hover {
+  background: #dd101e;
+  transform: translateY(-2px);
+}
+
+#taskList li {
+  background: #f8f9fa;
+  padding: 8px 12px;
+  margin-bottom: 6px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.2s ease;
+  font-weight: 400;
+}
+#taskList li:hover {
+  background: #edf2f4;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+#taskList {
+  list-style: none;
+  padding: 5px;
+  margin-top: 5px;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  min-height: 170px;
+  background: #fafafa;
+  max-height: 270px;
+  overflow-y: auto;
+}
+.tasksContainer {
+  margin-top: 10px;
+  padding: 15px;
+  border-radius: 12px;
+  background: #fafafa;
+}
+.tasksContainer h3 {
+  margin: 0 5 8px;
+  font-weight: 700;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.complete-btn {
+  background-color: #04db5e;
+  color: white;
+  border: none;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 8px;
+  transition: 0.2s;
+}
+.complete-btn:hover {
+  background-color: #2ce479;
+  transform: scale(1.1);
+}
+
+.delete-btn {
+  background-color: #fc1900;
+  color: white;
+  border: none;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 8px;
+  transition: 0.2s;
+}
+
+.delete-btn:hover {
+  background-color: #f04431;
+  transform: scale(1.1);
+}
+
+.task-text {
+  flex: 1;
+  text-align: left;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.fa-book-open {
+  color: #ff0015 !important;
+  font-size: 60px;
+}
+
+#taskInput::placeholder {
+  color: #999;
+  transition: opacity 0.2s ease;
+}
+
+#taskInput:focus::placeholder {
+  opacity: 0;
+}
+
+.input-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.task-stats {
+  display: flex;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.stat-card {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 18px;
+  border-radius: 14px;
+  background: #ffffff;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.25s ease;
+  box-sizing: border-box;
+  min-width: 0;
+}
+
+.stat-icon {
+  width: 55px;
+  height: 55px;
+
+  min-width: 55px;
+  min-height: 55px;
+
+  flex-shrink: 0;
+
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 22px;
+  color: white;
+}
+
+.stat-info h4 {
+  margin: 0;
+  font-size: 15px;
+  color: #666;
+  white-space: nowrap;
+}
+
+.stat-info span {
+  display: block;
+  margin-top: 5px;
+  font-size: 24px;
+  font-weight: 700;
+}
+.total-card .stat-icon {
+  background: #f1211e;
+}
+
+.completed-card .stat-icon {
+  background: #32ac38;
+}
+
+.remaining-card .stat-icon {
+  background: #fb7100;
+}
+
+.total-card {
+  background: #fff5f5;
+}
+
+.completed-card {
+  background: #f2fff5;
+}
+
+.remaining-card {
+  background: #fff9ef;
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
+}
+
+.task-number {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #07e2ff;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: 12px;
+  flex-shrink: 0;
+}
+
+.edit-btn {
+  background-color: #fffb00;
+  color: white;
+  border: none;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 8px;
+  transition: 0.2s;
+}
+
+.edit-btn:hover {
+  background-color: #fbe600;
+  transform: scale(1.1);
+}

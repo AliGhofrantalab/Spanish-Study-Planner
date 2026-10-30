@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spanish Study Planner</title>
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <i class="fa-solid fa-book-open"></i>
+
+      <h1>Spanish Study Planner</h1>
+
+      <div class="input-container">
+        <input
+          type="text"
+          id="taskInput"
+          placeholder="Add a new study task..."
+        />
+
+        <button id="addBtn">Add Task</button>
+      </div>
+
+      <div class="tasksContainer">
+        <h3>Today's Tasks</h3>
+
+        <div class="task-stats">
+          <div class="stat-card total-card">
+            <div class="stat-icon">
+              <i class="fa-solid fa-list"></i>
+            </div>
+
+            <div class="stat-info">
+              <h4>Total Tasks</h4>
+              <span id="totalTasks">0</span>
+            </div>
+          </div>
+
+          <div class="stat-card completed-card">
+            <div class="stat-icon">
+              <i class="fa-solid fa-check"></i>
+            </div>
+
+            <div class="stat-info">
+              <h4>Completed</h4>
+              <span id="completedTasks">0</span>
+            </div>
+          </div>
+
+          <div class="stat-card remaining-card">
+            <div class="stat-icon">
+              <i class="fa-solid fa-clock"></i>
+            </div>
+
+            <div class="stat-info">
+              <h4>Remaining</h4>
+              <span id="remainingTasks">0</span>
+            </div>
+          </div>
+        </div>
+
+        <ul id="taskList"></ul>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
