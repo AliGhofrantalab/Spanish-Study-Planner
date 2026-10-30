@@ -1,86 +1,72 @@
-# Spanish Study Planner
+# 🇪🇸 Spanish Study Planner
 
-A simple and interactive JavaScript project for organizing daily Spanish learning tasks.
+A simple and interactive web application for organizing daily Spanish learning tasks.
 
-This project was built as a beginner-friendly exercise to practice HTML, CSS, and JavaScript fundamentals while creating a useful productivity tool for language learners.
+This project started as a beginner-friendly JavaScript exercise and gradually evolved into a practical task management application.
 
-## 🚀 Live Demo
+## 🚀 Live Demos
 
-https://alighofrantalab.github.io/Spanish-Study-Planner/
+| Version | Description | Live Demo |
+|---|---|---|
+| v1.0 | Basic Task Management | [View v1.0](https://alighofrantalab.github.io/Spanish-Study-Planner/v1.0/) |
+| v1.1 | Improved UI & Task Management | [View v1.1](https://alighofrantalab.github.io/Spanish-Study-Planner/v1.1/) |
+| v1.2 | Enhanced Task Management & Local Storage | [View v1.2](https://alighofrantalab.github.io/Spanish-Study-Planner/v1.2/) |
 
 ## ✨ Features
 
-- ➕ Add new study tasks
-- ⌨️ Press Enter to add tasks quickly
-- 📋 Scroll-able task list
-- 🎨 Clean and minimal UI design
-- 📚 Focused on Spanish learning organization
+- Add new study tasks
+- Edit existing tasks
+- Mark tasks as completed
+- Delete tasks
+- Press Enter to add tasks quickly
+- Automatic task numbering
+- Task counters (Total, Completed, Remaining)
+- Save tasks using Local Storage
+- Scrollable task list
 
 ## 🛠️ Built With
 
 - HTML5
 - CSS3
 - Vanilla JavaScript (ES6)
+- Browser Local Storage
+- Font Awesome
 
 ## 📚 What I Learned
 
 - DOM manipulation
-- Event handling (click and keyboard events)
-- Creating elements dynamically with JavaScript
-- Working with user input
-- Building a simple task management interface
-- Structuring a small front-end project
+- Event handling
+- Creating and updating HTML elements dynamically
+- Working with arrays and objects
+- Managing application state
+- Using Local Storage
+- Building interactive user interfaces
 
 ## 📸 Preview
 
 ![Preview](images/v1.1-preview.png)
 
-🧭 Version History
+## 🧭 Version History
 
-### v1.0
+- **v1.0:** Initial release with basic task management.
+- **v1.1:** Improved interface, task completion, deletion, and counters.
+- **v1.2:** Task editing, completion, deletion, counters, and Local Storage support.
 
-- Initial release
-- Add Task functionality
-- Enter key support
-- Scrollable task container
-- Basic UI design
+## 🔮 Future Improvements
 
-### v1.1
-
-- Complete Task feature
-- Delete Task feature
-- Task Counters (Total, Completed, Remaining)
-
-### v1.2 (Planned)
-
-- Local Storage support
 - Dark Mode
-
-### v2.0 (Planned)
-
-- Complete UI redesign
-- Progress Bar
-- Statistics Dashboard
-- Professional task management interface
-
-## 📌 Future Improvements
-
-- Complete tasks with one click
-- Delete tasks
-- Task statistics and counter
-- Local storage support
-- Dark mode 🌙
-- Study categories (Vocabulary, Grammar, Listening, Speaking)
+- Spanish study categories (Vocabulary, Grammar, Listening, Speaking)
 - Daily learning goals
+- Progress bar
+- Statistics dashboard
+- Further UI improvements
 
 ## 👨‍💻 Author
 
-Ali Ghofrantalab
+**Ali Ghofrantalab**
 
-GitHub: https://github.com/AliGhofrantalab
+[GitHub Profile](https://github.com/AliGhofrantalab)
 
-Project created for learning and portfolio purposes.
+---
 
-## ⚠️ Note
-
-This is a beginner project created for learning JavaScript and building a GitHub portfolio.
+*Created for learning and portfolio purposes.*

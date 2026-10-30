@@ -1,0 +1,150 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  background-color: white;
+  width: 500px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+#taskInput {
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  margin-bottom: 15px;
+}
+#taskInput:focus {
+  border-color: #ff0015;
+  box-shadow: 0 0 8px rgba(255, 0, 21, 0.3);
+}
+
+#addBtn {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #ff0015;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+#addBtn:hover {
+  background: #dd101e;
+  transform: scale(1.05);
+}
+
+#taskList li {
+  background: #f8f9fa;
+  padding: 8px 12px;
+  margin-bottom: 6px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.2s ease;
+  font-weight: 400;
+}
+#taskList li:hover {
+  background: #edf2f4;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+#taskList {
+  list-style: none;
+  padding: 5px;
+  margin-top: 5px;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  min-height: 135px;
+  background: #fafafa;
+  max-height: 200px;
+  overflow-y: auto;
+}
+.tasksContainer {
+  margin-top: 10px;
+  padding: 15px;
+  border-radius: 12px;
+  background: #fafafa;
+}
+.tasksContainer h3 {
+  margin: 0 5 8px;
+  font-weight: 700;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.complete-btn {
+  background-color: #04db5e;
+  color: white;
+  border: none;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 8px;
+  transition: 0.2s;
+}
+.complete-btn:hover {
+  background-color: #2ce479;
+  transform: scale(1.1);
+}
+
+.delete-btn {
+  background-color: #fc1900;
+  color: white;
+  border: none;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 8px;
+  transition: 0.2s;
+}
+
+.delete-btn:hover {
+  background-color: #f04431;
+  transform: scale(1.1);
+}
+
+.task-text {
+  flex: 1;
+  text-align: left;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.fa-book-open {
+  color: #ff0015 !important;
+  font-size: 60px;
+}
+
+#taskInput::placeholder {
+  color: #999;
+  transition: opacity 0.2s ease;
+}
+
+#taskInput:focus::placeholder {
+  opacity: 0;
+}
